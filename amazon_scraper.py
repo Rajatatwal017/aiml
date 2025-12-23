@@ -6,7 +6,7 @@ from webdriver_manager.chrome import ChromeDriverManager
 from webdriver_manager.core.driver_cache import DriverCacheManager
 
 # Cache driver locally
-cache_root = os.path.join(os.getcwd(), "drivers")
+# cache_root = os.path.join(os.getcwd(), "drivers")
 os.makedirs(os.path.join(cache_root, ".wdm"), exist_ok=True)
 cache_manager = DriverCacheManager(root_dir=cache_root)
 
